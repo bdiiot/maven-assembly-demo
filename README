@@ -1,0 +1,30 @@
+tar -xzf maven-assembly-demo-1.0-SNAPSHOT-assembly.tar.gz
+cd maven-assembly-demo-1.0-SNAPSHOT
+
+ls -l -R
+
+total 8
+drwxr-xr-x  3 pipe  staff    96 Nov 29 17:40 bin
+drwxr-xr-x  6 pipe  staff   192 Nov 29 17:36 conf
+drwxr-xr-x  3 pipe  staff    96 Nov 29 17:40 lib
+-rw-r--r--  1 pipe  staff  3241 Nov 29 17:39 maven-assembly-demo-1.0-SNAPSHOT.jar
+drwxr-xr-x  3 pipe  staff    96 Nov 29 17:40 sql
+
+./bin:
+total 0
+-rwxr-xr-x  1 pipe  staff  0 Nov 29 17:35 main.sh
+
+./conf:
+total 0
+-rw-r--r--  1 pipe  staff  0 Nov 29 17:36 conf.xml
+-rw-r--r--  1 pipe  staff  0 Nov 29 17:39 resources.properties
+-rw-r--r--  1 pipe  staff  0 Nov 29 17:39 resources.txt
+-rw-r--r--  1 pipe  staff  0 Nov 29 17:39 resources.xml
+
+./lib:
+total 8
+-rw-r--r--  1 pipe  staff  3241 Nov 29 17:39 maven-assembly-demo-1.0-SNAPSHOT.jar
+
+./sql:
+total 0
+-rw-r--r--  1 pipe  staff  0 Nov 29 17:37 sql.sql
